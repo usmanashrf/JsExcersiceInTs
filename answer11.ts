@@ -1,10 +1,7 @@
-let mY_Name :string = "M Usman Ashraf";
 
-// here we are getting today's date from date object
-const today = new Date();
+let names: string[]=['Ali','Mujtaba','Umer','khan'];
 
-/*here we 
-are showing data
- in console*/
-console.log(`My name is ${mY_Name}`);
-console.log(`today's date is : ${today}`);
+
+for(var i=0; i< names.length; i++){
+    console.log(`${names[i]}`);
+}
