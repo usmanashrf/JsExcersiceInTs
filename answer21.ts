@@ -3,8 +3,6 @@ interface employee {
     name: string;
     Salary: string;
   }
-   
-
 
 let employee  : employee ={
     id:1005,
